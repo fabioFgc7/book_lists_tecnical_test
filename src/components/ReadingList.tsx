@@ -12,7 +12,7 @@ export const ReadingList = ({
   animations,
 }: Props) => {
   return (
-    <div className='md:max-w-md w-full bg-slate-700 rounded-md md:px-5 md:h-[100vh] h-full md:order-none order-first mb-10 overflow-x-hidden '>
+    <div className='md:max-w-md w-full bg-slate-700 rounded-md md:px-5 h-full md:order-none order-first mb-10 overflow-x-hidden '>
       <h2 className='text-center font-semibold text-lg'>
         Lista de Lecturas ({readListBook.length})
       </h2>

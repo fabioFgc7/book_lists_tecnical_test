@@ -68,7 +68,7 @@ const App = () => {
   };
 
   return (
-    <main className='w-full md:p-5'>
+    <main className='w-full md:p-5  h-full'>
       <NavBar
         genre={genre}
         setGenre={setGenre}
